@@ -12,8 +12,17 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
 </head>
-<body style="min-height: 100vh; display: flex; flex-direction: column;">
+<body>
+    @include('company-profile.partials.sidenav')
     @include('company-profile.partials.navbar')
     <main>
         @yield('company-profile')

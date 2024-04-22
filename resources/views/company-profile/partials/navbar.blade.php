@@ -1,42 +1,124 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg" style="height: 80px;">
-    <div class="container d-flex justify-content-between align-items-center">
-        <a class="navbar-brand bg-dark px-3 d-flex justify-content-center align-items-center rounded" href="#">
+<style>
+    #navbar{
+        height: 80px;
+        color: #f8f9fa;
+    }
+    .text-juara{
+        color: #ef0046;
+    }
+    .btn-juara{
+        background-color: #ef0046;
+        color: #f8f9fa;
+        transition: .3s;
+        font-weight: 700;
+    }
+    .btn-juara:hover{
+        background-color: #c3315d;
+    }
+    .btn-juara-invert{
+        background-color: #f8f9fa;
+        color: #ef0046;
+        transition: .3s;
+        font-weight: 700;
+    }
+    .btn-juara-invert:hover{
+        background-color: lightgray;
+        color: #212529;
+    }
+    .bg-juara{
+        background-color: #ef0046
+    }
+    a{
+        text-decoration: none;
+        color: #f8f9fa;
+    }
+    a:hover{
+        font-weight: 700;
+    }
+    .navbar-menu, .navbar-menu>.dropdown-toggle{
+        color: #f8f9fa;
+        border: none;
+        transition: .3s;
+    }
+    .navbar-menu:hover, .navbar-menu>.dropdown-toggle:hover{
+        color: #c5003b;
+        font-weight: 700;
+    }
+    .navbar-menu::after{
+        content: "";
+        position: absolute;
+        background-color: #ef0046;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: 0px;
+        transition: 0.3s;
+    }
+    .navbar-menu:hover::after{
+        width: 100%;
+    }
+    .menu-active::after{
+        content: "";
+        position: absolute;
+        background-color: #ef0046;
+        height: 3px;
+        width: 100%;
+        left: 0;
+        bottom: 0px;
+    }
+    .menu-active{
+        color: #ef0046;
+        font-weight: 700;
+        /* transition: all 1s; */
+    }
+    .premium-menu{
+        transition: .3s;
+    }
+    .premium-menu:hover, .premium-active{
+        background-color: #ef0046;
+        font-weight: 700;
+    }
+    @media (min-width: 768px){
+        #navbar{
+            height: 70px;
+        }
+    }
+</style>
+
+<nav class="shadow-lg bg-dark" id="navbar">
+    <div class="container d-flex justify-content-between align-items-center h-100">
+        <a class="d-flex justify-content-center align-items-center rounded" href="#">
             <img src="{{ asset('images/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
-            <img src="{{ asset('images/juara-font.png') }}" alt="" style="width: 100px;">
+            <img src="{{ asset('images/juara-font-full.png') }}" alt="" style="width: 100px;">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="d-flex d-md-none btn btn-outline-light px-3 py-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLanding" aria-controls="offcanvasLanding">
+            <i class="bi bi-list"></i>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">News & Articles</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Services
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Learning Management System</a></li>
-                        <li><a class="dropdown-item" href="#">Close Procedure Operative (CPO)</a></li>
-                        <li><a class="dropdown-item" href="#">Event Security</a></li>
-                        <li><a class="dropdown-item" href="#">Cyber Security</a></li>
-                        <li><a class="dropdown-item" href="#">Concierge Security</a></li>
-                        <li><a class="dropdown-item" href="#">Security Academy</a></li>
-                    </ul>
-                </li>
-            </ul>
+        <div class="d-none d-md-flex align-items-center h-100 gap-1">
+            <a class="navbar-menu position-relative h-100 d-flex justify-content-center align-items-center px-3 {{ (request()->is('/')) ? 'menu-active' : '' }}" href="{{ url('/') }}">HOME</a>
+            <a class="navbar-menu position-relative h-100 d-flex justify-content-center align-items-center px-3 {{ (request()->is('about-us')) ? 'menu-active' : '' }}" href="{{ url('about-us') }}">ABOUT US</a>
+            <div class="navbar-menu dropdown h-100 p-0">
+                <button class="dropdown-toggle bg-dark h-100 px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border:none;">
+                    SERVICES
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Learning Management System</a></li>
+                    <li><a class="dropdown-item" href="#">Close Procedure Operative (CPO)</a></li>
+                    <li><a class="dropdown-item" href="#">Event Security</a></li>
+                    <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+                    <li><a class="dropdown-item" href="#">Concierge Security</a></li>
+                    <li><a class="dropdown-item" href="#">Security Academy</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="d-flex gap-2">
-            <a class="btn btn-success fw-bold" href="#service-and-pricing">Buy Security Plan</a>
-            <button class="btn btn-primary fw-bold" type="button">Join Us</button>
+        <div class="d-none d-md-flex align-items-center h-100">
+            <a class="premium-menu position-relative h-100 d-flex justify-content-center align-items-center px-3" href="#service-and-pricing">
+                BUY SECURITY PLAN
+                <span class="position-absolute badge rounded-pill bg-danger" style="top: 5px; right: 0;">
+                    promo
+                <span class="visually-hidden">promo</span>
+            </a>
+            <a class="premium-menu h-100 d-flex justify-content-center align-items-center px-3" href="">LOGIN</a>
         </div>
     </div>
 </nav>

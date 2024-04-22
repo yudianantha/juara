@@ -8,7 +8,8 @@ Auth::routes();
 
 // Juara Security Company Profile Pages
 
-Route::get('/', [App\Http\Controllers\CompanyProfileController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\CompanyProfileController::class, 'home'])->name('home');
+Route::get('/about-us', [App\Http\Controllers\CompanyProfileController::class, 'about'])->name('about');
 
 // LMS Profile Pages
 
