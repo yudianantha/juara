@@ -205,16 +205,59 @@ Juara Security
                     <div class="container">
                         <div class="row g-3">
                             <div class="col-6">
-                                <div class="border shadow d-flex justify-content-center align-items-center scale-up" style="height: 200px;">This is Data with Graph</div>
+                                <div class="border shadow d-flex justify-content-center align-items-center scale-up p-3" style="height: 200px;">
+                                    <canvas id="donut-chart"></canvas>
+                                </div>
                             </div>
                             <div class="col-6">
-                                <div class="border shadow d-flex justify-content-center align-items-center scale-up" style="height: 200px;">This is Data with Graph</div>
+                                <div class="border shadow d-flex flex-column justify-content-between scale-up p-3" style="height: 200px;">
+                                    <h5 class="text-start">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    <div class="d-flex flex-column">
+                                        <h1 class="text-juara fw-bolder mb-0" style="font-size: 50px;">85%</h1>
+                                        <p class="mb-0">Complete work</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-6">
-                                <div class="border shadow d-flex justify-content-center align-items-center scale-up" style="height: 200px;">This is Data with Graph</div>
+                                <div class="border shadow d-flex flex-column justify-content-between scale-up p-3" style="height: 200px;">
+                                    <h5 class="text-start">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    <div class="d-flex flex-column">
+                                        <h1 class="text-juara fw-bolder mb-0" style="font-size: 50px;">30+</h1>
+                                        <p class="mb-0">Expert Mentors</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-6">
-                                <div class="border shadow d-flex justify-content-center align-items-center scale-up" style="height: 200px;">This is Data with Graph</div>
+                                <div class="border shadow d-flex flex-column justify-content-center scale-up p-3" style="height: 200px;">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0">Growth</p>
+                                        <p class="mb-0">75%</p>
+                                    </div>
+                                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                                        <div class="progress-bar bg-juara" style="width: 75%"></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0">Secure</p>
+                                        <p class="mb-0">85%</p>
+                                    </div>
+                                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                                        <div class="progress-bar bg-juara" style="width: 85%"></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0">Savings</p>
+                                        <p class="mb-0">25%</p>
+                                    </div>
+                                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                                        <div class="progress-bar bg-juara" style="width: 25%"></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0">Risk Decrease</p>
+                                        <p class="mb-0">90%</p>
+                                    </div>
+                                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                                        <div class="progress-bar bg-juara" style="width: 90%"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -226,23 +269,23 @@ Juara Security
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quo! Harum, excepturi. Vel sapiente aliquid laudantium ipsum quisquam voluptates excepturi reprehenderit, eveniet nulla laborum provident, iste ut neque repellendus doloribus.</p>
                         <ul style="list-style-type: none; margin: 0; padding: 0;">
                             <li class="d-flex align-items-center">
-                                <i class="bi bi-chevron-right me-3" style="font-size: 17px;"></i>
+                                <i class="bi bi-chevron-right me-3 text-juara" style="font-size: 17px;"></i>
                                 Lorem ipsum dolor sit amet consectetur.
                             </li>
                             <li class="d-flex align-items-center">
-                                <i class="bi bi-chevron-right me-3" style="font-size: 17px;"></i>
+                                <i class="bi bi-chevron-right me-3 text-juara" style="font-size: 17px;"></i>
                                 Lorem ipsum dolor sit amet consectetur.
                             </li>
                             <li class="d-flex align-items-center">
-                                <i class="bi bi-chevron-right me-3" style="font-size: 17px;"></i>
+                                <i class="bi bi-chevron-right me-3 text-juara" style="font-size: 17px;"></i>
                                 Lorem ipsum dolor sit amet consectetur.
                             </li>
                             <li class="d-flex align-items-center">
-                                <i class="bi bi-chevron-right me-3" style="font-size: 17px;"></i>
+                                <i class="bi bi-chevron-right me-3 text-juara" style="font-size: 17px;"></i>
                                 Lorem ipsum dolor sit amet consectetur.
                             </li>
                             <li class="d-flex align-items-center">
-                                <i class="bi bi-chevron-right me-3" style="font-size: 17px;"></i>
+                                <i class="bi bi-chevron-right me-3 text-juara" style="font-size: 17px;"></i>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </li>
                         </ul>
@@ -281,7 +324,7 @@ Juara Security
                     </div>
                 </div>
                 <div class="col d-flex justify-content-center align-items-center">
-                    <canvas id="security-chart" class="w-100"></canvas>
+                    <canvas id="bar-chart" class="w-100"></canvas>
                 </div>
             </div>
         </div>
