@@ -22,7 +22,7 @@ Juara Security
         height: 80vh;   
     }
     .hero-banner-container{
-        position: absolute;
+        position: relative;
     }
     .hero-banner{
         height: auto;
@@ -56,11 +56,14 @@ Juara Security
         .section-description{
             width: 50%;
         }
+        #about-us{
+            margin-top: 55px;
+        }
     }
 </style>
 
 @section('company-profile')
-    <section id="hero" class="mb-5">
+    <section id="hero">
         <div id="heroCarousel" class="carousel slide carousel-fade position-relative" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -81,23 +84,23 @@ Juara Security
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button> --}}
-            <div class="hero-banner-container container mt-5 mt-md-0">
-                <div class="row row-cols-1 row-cols-md-3 hero-banner g-3 g-md-0 scale-up bg-dark text-light shadow-lg" style="border: none;">
-                    <div class="col d-flex justify-content-center align-items-center">
+            <div class="hero-banner-container container p-0">
+                <div class="row row-cols-1 row-cols-md-3 hero-banner g-3 g-md-0 p-5 p-md-0 scale-up bg-dark text-light shadow-lg" style="border: none;">
+                    <div class="col d-flex justify-content-start justify-content-md-center align-items-center">
                         <i class="bi bi-shield-shaded me-3" style="font-size: 50px; color:#ef0046;"></i>
                         <div>
                             <h3 class="fw-bold mb-0">33 Companies Secured</h3>
                             <p class="mb-0">Telah melindungi 33 perusahaan</p>
                         </div>
                     </div>
-                    <div class="col d-flex justify-content-center align-items-center">
+                    <div class="col d-flex justify-content-start justify-content-md-center align-items-center">
                         <i class="bi bi-person-arms-up me-3" style="font-size: 50px; color:#ef0046;"></i>
                         <div>
                             <h3 class="fw-bold mb-0">200+ Person Trained</h3>
                             <p class="mb-0">Melatih lebih dari 200 orang</p>
                         </div>
                     </div>
-                    <div class="col d-flex justify-content-center align-items-center">
+                    <div class="col d-flex justify-content-start justify-content-md-center align-items-center">
                         <i class="bi bi-award me-3" style="font-size: 50px; color:#ef0046;"></i>
                         <div>
                             <h3 class="fw-bold mb-0">30+ Certified Mentors</h3>
@@ -109,7 +112,7 @@ Juara Security
         </div>
     </section>
 
-    <section id="about-us" class="py-5" style="margin-top: 55px;">
+    <section id="about-us" class="py-5">
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 g-5">
                 <div class="col">
