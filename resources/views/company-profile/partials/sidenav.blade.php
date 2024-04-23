@@ -24,8 +24,8 @@
             <a href="" class="w-100 d-flex justify-content-center py-3 border">SECURITY ACADEMY</a>
         </div>
         <div class="d-flex flex-column gap-2 mt-3">
-            <button class="w-100 d-flex justify-content-center py-3 border bg-juara fw-bold">BUY SECURITY PLAN</button>
-            <button class="w-100 d-flex justify-content-center py-3 border bg-juara fw-bold">LOGIN</button>
+            <a class="w-100 d-flex justify-content-center py-3 border bg-juara fw-bold">BUY SECURITY PLAN</a>
+            <a class="w-100 d-flex justify-content-center py-3 border bg-juara fw-bold" href="{{ url('/auth/login') }}">LOGIN</a>
             <div class="d-flex justify-content-end">
                 <small class="mb-0">Juara Security by HiveMonk ©2024 All Rights reserved</small>
             </div>
