@@ -49,7 +49,7 @@
         </a>
         <a href="" class="menu-sidenav btn btn-outline-light d-flex align-items-center fw-bold p-3 {{ (request()->is('/')) ? 'sidenav-active' : '' }}">
           <i class="bi bi-database-gear me-3" style="font-size: 25px"></i>
-          Services
+          Juara Services
         </a>
       </div>
       <div class="d-flex flex-column">
