@@ -22,12 +22,9 @@
     </style>
 </head>
 <body>
-    @include('dashboard-user.partials.sidenav')
-    @include('dashboard-user.partials.navbar')
     <main>
-        @yield('dashboard-user')
+        @yield('auth')
     </main>
-    @include('dashboard-user.partials.footer')
-    @include('dashboard-user.partials.script')
+    @include('auth.partials.script')
 </body>
 </html>

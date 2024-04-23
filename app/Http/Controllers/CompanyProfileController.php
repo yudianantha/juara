@@ -15,4 +15,9 @@ class CompanyProfileController extends Controller
     {
         return view('company-profile.about');
     }
+
+    public function login()
+    {
+        return view('auth.login');
+    }
 }

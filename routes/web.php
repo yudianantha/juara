@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 // Auth
 
-Auth::routes();
+// Auth::routes();
+Route::get('/auth/login', [App\Http\Controllers\CompanyProfileController::class, 'login'])->name('login');
 
 // Juara Security Company Profile Pages
 
@@ -17,7 +18,7 @@ Route::get('/lms', [App\Http\Controllers\LmsController::class, 'index'])->name('
 
 // Dashboard User
 
-Route::get('/lms/dashboard', [App\Http\Controllers\DashboardUserController::class, 'index'])->name('dasboard_user');
+Route::get('/dashboard', [App\Http\Controllers\DashboardUserController::class, 'home'])->name('dasboard_user');
 
 // Dashboard Admin
 

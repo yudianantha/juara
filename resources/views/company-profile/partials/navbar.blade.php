@@ -118,7 +118,7 @@
                     promo
                 <span class="visually-hidden">promo</span>
             </a>
-            <a class="premium-menu h-100 d-flex justify-content-center align-items-center px-3" href="">LOGIN</a>
+            <a class="premium-menu h-100 d-flex justify-content-center align-items-center px-3" href="{{ url('/auth/login') }}">LOGIN</a>
         </div>
     </div>
 </nav>
