@@ -15,8 +15,6 @@
         "vite": "^5.0"
     },
     "dependencies": {
-        "typed.js": "^2.1.0",
-        "@sparticuz/chromium": "^119.0.2",
-        "puppeteer-core": "^21.5.1"
+        "typed.js": "^2.1.0"
     }
 }
