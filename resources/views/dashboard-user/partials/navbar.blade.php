@@ -5,7 +5,7 @@
 </style>
 
 <nav class="bg-dark" id="navbar">
-    <div class="container d-flex justify-content-between align-items-center py-3">
+    <div class="container d-flex justify-content-between align-items-center py-3 shadow-lg">
         <div class="d-flex align-items-center d-md-none">
             <img src="{{ asset('images/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
             <img src="{{ asset('images/juara-font.png') }}" alt="" style="width: 100px;">

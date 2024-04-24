@@ -44,7 +44,7 @@
         color: #c5003b;
         font-weight: 700;
     }
-    .navbar-menu::after{
+    .navbar-menu::after, .menu-active::after{
         content: "";
         position: absolute;
         background-color: #ef0046;
@@ -56,15 +56,6 @@
     }
     .navbar-menu:hover::after{
         width: 100%;
-    }
-    .menu-active::after{
-        content: "";
-        position: absolute;
-        background-color: #ef0046;
-        height: 3px;
-        width: 100%;
-        left: 0;
-        bottom: 0px;
     }
     .menu-active{
         color: #ef0046;

@@ -14,11 +14,11 @@ Route::get('/about-us', [App\Http\Controllers\CompanyProfileController::class, '
 
 // LMS Profile Pages
 
-Route::get('/lms', [App\Http\Controllers\LmsController::class, 'index'])->name('lms');
+Route::get('/lms', [App\Http\Controllers\LmsController::class, 'home'])->name('lms');
 
 // Dashboard User
 
-Route::get('/dashboard', [App\Http\Controllers\DashboardUserController::class, 'home'])->name('dasboard_user');
+Route::get('/lms/dashboard', [App\Http\Controllers\DashboardUserController::class, 'home'])->name('dasboard_user');
 
 // Dashboard Admin
 

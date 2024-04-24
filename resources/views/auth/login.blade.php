@@ -62,7 +62,7 @@ Juara Security Login
                     </div>
                 </div>
                 {{-- Submit Button --}}
-                <a class="btn btn-light fw-bold" href="{{ url('/dashboard') }}">Masuk</a>
+                <a class="btn btn-light fw-bold" href="{{ url('/lms/dashboard') }}">Masuk</a>
                 <p class="text-center mb-0">
                     Dont have an account ? <a href="" class="link-light link-offset-2 fw-bold" style="text-decoration: none">Register Here</a>
                 </p>

@@ -8,6 +8,6 @@ class DashboardUserController extends Controller
 {
     public function home()
     {
-        return view('dashboard-user/home');
+        return view('dashboard-user.home');
     }
 }
