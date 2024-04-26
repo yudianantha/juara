@@ -12,14 +12,6 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-
-    <style>
-        body {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-    </style>
 </head>
 <body>
     @include('company-profile.partials.sidenav')

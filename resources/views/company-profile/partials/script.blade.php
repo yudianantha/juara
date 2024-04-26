@@ -4,9 +4,6 @@
     ({key: '{{ env('GOOGLE_MAP_API_KEY') }}', v: "weekly"});
 </script>
 
-{{-- Chart JS API --}}
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 <script>
     // Google Maps Api Start
     let map;
@@ -27,54 +24,4 @@
     }
 
     initMap();
-    // Google Maps Api End
-    
-    // Typed Js Start
-    
-    // Typed Js End
-    
-    // Chart Js Start
-    const chart1 = document.getElementById('bar-chart');
-    const chart2 = document.getElementById('donut-chart');
-
-    new Chart(chart1, {
-        type: 'bar',
-        data: {
-            labels: ['2018','2019', '2020', '2021', '2022', '2023'],
-            datasets: [{
-                label: '% of Corporation Security Risk from 2018-2023',
-                data: [13, 10, 20, 12, 15, 20],
-                borderWidth: 1,
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-
-    new Chart(chart2, {
-        type: 'doughnut',
-        data: {
-            // labels: [
-            //     'Red',
-            //     'Blue',
-            //     'Yellow'
-            // ],
-            datasets: [{
-                label: 'My First Dataset',
-                data: [300, 50, 100],
-                backgroundColor: [
-                    'rgb(255, 99, 132)',
-                    'rgb(54, 162, 235)',
-                    'rgb(255, 205, 86)'
-                ],
-                hoverOffset: 4
-            }]
-        }
-    })
-    // Chart Js End
 </script>

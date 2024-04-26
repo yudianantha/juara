@@ -61,8 +61,8 @@
         </div>
         <div class="d-flex justify-content-end justify-content-md-between py-3 mb-0 border-top text-light">
             <div class="mb-0 d-none d-md-flex justify-content-center align-items-center rounded">
-                <img src="{{ asset('images/juara-icon.png') }}" alt="" class="me-2" style="width: 20px;">
-                <img src="{{ asset('images/juara-font.png') }}" alt="" style="width: 80px;">
+                <img src="{{ asset('img/juara-icon.png') }}" alt="" class="me-2" style="width: 20px;">
+                <img src="{{ asset('img/juara-font.png') }}" alt="" style="width: 80px;">
             </div>
             <p class="mb-0">Juara Security by HiveMonk ©2024 All Rights reserved</p>
         </div>

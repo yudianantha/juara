@@ -7,15 +7,15 @@
 <nav class="bg-dark" id="navbar">
     <div class="container d-flex justify-content-between align-items-center py-3 shadow-lg">
         <div class="d-flex align-items-center d-md-none">
-            <img src="{{ asset('images/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
-            <img src="{{ asset('images/juara-font.png') }}" alt="" style="width: 100px;">
+            <img src="{{ asset('img/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
+            <img src="{{ asset('img/juara-font.png') }}" alt="" style="width: 100px;">
         </div>
         <a class="d-flex justify-content-center align-items-center rounded" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             <button class="btn btn-outline-light me-0 me-md-3" type="button">
                 <i class="bi bi-list"></i>
             </button>
-            <img src="{{ asset('images/juara-icon.png') }}" alt="" class="d-none d-md-flex me-2" style="width: 30px;">
-            <img src="{{ asset('images/juara-font.png') }}" alt="" class="d-none d-md-flex" style="width: 100px;">
+            <img src="{{ asset('img/juara-icon.png') }}" alt="" class="d-none d-md-flex me-2" style="width: 30px;">
+            <img src="{{ asset('img/juara-font.png') }}" alt="" class="d-none d-md-flex" style="width: 100px;">
         </a>
         <div class="d-none d-md-flex align-items-center gap-3">
             <button class="btn btn-dark rounded-circle border d-flex justify-content-center align-items-center" style="height: 37px; width: 37px;">

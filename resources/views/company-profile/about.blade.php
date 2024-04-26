@@ -6,6 +6,6 @@ About Us
 
 @section('company-profile')
 
-
+TEST
 
 @endsection

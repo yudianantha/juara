@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+button, .btn {
+    border-radius: 0 !important;
+}
+
+.navbar {
+    height: 80px;
+    color: --bs-light;
+}
+
+.sidenav {
+
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.text-juara {
+    color: --juara;
+}
+
+.btn-juara {
+    background-color: #ef0046;
+    color: --bs-light;
+    transition: .3s;
+    font-weight: 700;
+}
+
+.btn-juara:hover {
+    background-color: --juara-darker;
+}
+
+.btn-juara-invert {
+    background-color: #f8f9fa;
+    color: #ef0046;
+    transition: .3s;
+    font-weight: 700;
+}
+
+.btn-juara-invert:hover {
+    background-color: lightgray;
+    color: #212529;
+}
+
+.scale-up {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.scale-up:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 768px){
+    
+}

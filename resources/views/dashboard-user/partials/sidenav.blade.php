@@ -31,8 +31,8 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" data-bs-theme="dark">
     <div class="offcanvas-header">
       <a class="d-flex justify-content-center align-items-center rounded" href="#">
-        <img src="{{ asset('images/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
-        <img src="{{ asset('images/juara-font-full.png') }}" alt="" style="width: 100px;">
+        <img src="{{ asset('img/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
+        <img src="{{ asset('img/juara-font-full.png') }}" alt="" style="width: 100px;">
       </a>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>

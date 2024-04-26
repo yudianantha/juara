@@ -52,8 +52,8 @@
 <nav id="navbar" class="bg-dark d-flex align-items-center" style="height: 80px">
     <div class="container h-100 d-flex justify-content-between align-items-center py-3 shadow-lg text-light">
         <div class="d-flex align-items-center">
-            <img src="{{ asset('images/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
-            <img src="{{ asset('images/juara-font.png') }}" alt="" style="width: 100px;">
+            <img src="{{ asset('img/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
+            <img src="{{ asset('img/juara-font.png') }}" alt="" style="width: 100px;">
         </div>
         <a class="d-flex d-md-none justify-content-center align-items-center rounded" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             <button class="btn btn-outline-light me-0 me-md-3" type="button">

@@ -1,29 +1,6 @@
 <style>
-    #navbar{
-        height: 80px;
-        color: #f8f9fa;
-    }
     .text-juara{
         color: #ef0046;
-    }
-    .btn-juara{
-        background-color: #ef0046;
-        color: #f8f9fa;
-        transition: .3s;
-        font-weight: 700;
-    }
-    .btn-juara:hover{
-        background-color: #c3315d;
-    }
-    .btn-juara-invert{
-        background-color: #f8f9fa;
-        color: #ef0046;
-        transition: .3s;
-        font-weight: 700;
-    }
-    .btn-juara-invert:hover{
-        background-color: lightgray;
-        color: #212529;
     }
     .bg-juara{
         background-color: #ef0046
@@ -76,11 +53,11 @@
     }
 </style>
 
-<nav class="shadow-lg bg-dark" id="navbar">
+<nav class="navbar shadow-lg bg-dark">
     <div class="container d-flex justify-content-between align-items-center h-100">
         <a class="d-flex justify-content-center align-items-center rounded" href="#">
-            <img src="{{ asset('images/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
-            <img src="{{ asset('images/juara-font-full.png') }}" alt="" style="width: 100px;">
+            <img src="{{ asset('img/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
+            <img src="{{ asset('img/juara-font-full.png') }}" alt="" style="width: 100px;">
         </a>
         <button class="d-flex d-md-none btn btn-outline-light px-3 py-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLanding" aria-controls="offcanvasLanding">
             <i class="bi bi-list"></i>

@@ -1,4 +1,4 @@
-<footer class="bg-dark shadow-lg pt-3" style="margin-top: auto;">
+<footer class="footer bg-dark shadow-lg pt-3">
     <div class="container d-flex flex-column">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 py-3">
             <div class="col d-flex flex-column align-items-center align-items-md-start text-light">
@@ -67,8 +67,8 @@
         </div>
         <div class="d-flex justify-content-end justify-content-md-between py-3 mb-0 border-top text-light">
             <div class="mb-0 d-none d-md-flex justify-content-center align-items-center rounded">
-                <img src="{{ asset('images/juara-icon.png') }}" alt="" class="me-2" style="width: 20px;">
-                <img src="{{ asset('images/juara-font.png') }}" alt="" style="width: 80px;">
+                <img src="{{ asset('img/juara-icon.png') }}" alt="" class="me-2" style="width: 20px;">
+                <img src="{{ asset('img/juara-font.png') }}" alt="" style="width: 80px;">
             </div>
             <p class="mb-0">Juara Security by HiveMonk ©2024 All Rights reserved</p>
         </div>
