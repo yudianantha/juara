@@ -11,5 +11,7 @@ $font-family-header: "Staatliches", sans-serif;
 $font-family-paragraph: "Familjen Grotesk", sans-serif;
 
 :root{
-    $bd-violet: #ef0046;
+    $--juara: #ef0046;
+    $--juara-darker: hsl(342, 100%, 37%);
+    $--juara-darkest: hsl(342, 100%, 27%);
 }

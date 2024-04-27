@@ -66,14 +66,6 @@ Juara Security
                 <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7" class="h-100 w-100 object-fit-cover" alt="...">
               </div>
             </div>
-            {{-- <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button> --}}
             <div class="hero-banner-container container p-0">
                 <div class="row row-cols-1 row-cols-md-3 hero-banner g-3 g-md-0 p-5 p-md-0 scale-up bg-dark text-light shadow-lg" style="border: none;">
                     <div class="col d-flex justify-content-start justify-content-md-center align-items-center">

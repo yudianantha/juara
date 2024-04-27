@@ -53,7 +53,7 @@
     }
 </style>
 
-<nav class="navbar shadow-lg bg-dark">
+<nav class="navbar shadow-lg bg-dark p-0">
     <div class="container d-flex justify-content-between align-items-center h-100">
         <a class="d-flex justify-content-center align-items-center rounded" href="#">
             <img src="{{ asset('img/juara-icon.png') }}" alt="" class="me-2" style="width: 30px;">
@@ -63,7 +63,7 @@
             <i class="bi bi-list"></i>
         </button>
         <div class="d-none d-md-flex align-items-center h-100 gap-1">
-            <a class="navbar-menu position-relative h-100 d-flex justify-content-center align-items-center px-3 {{ (request()->is('/')) ? 'menu-active' : '' }}" href="{{ url('/') }}">HOME</a>
+            <a class="h-100 navbar-menu position-relative h-100 d-flex justify-content-center align-items-center px-3 {{ (request()->is('/')) ? 'menu-active' : '' }}" href="{{ url('/') }}">HOME</a>
             <a class="navbar-menu position-relative h-100 d-flex justify-content-center align-items-center px-3 {{ (request()->is('about-us')) ? 'menu-active' : '' }}" href="{{ url('about-us') }}">ABOUT US</a>
             <div class="navbar-menu dropdown h-100 p-0">
                 <button class="dropdown-toggle bg-dark h-100 px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border:none;">

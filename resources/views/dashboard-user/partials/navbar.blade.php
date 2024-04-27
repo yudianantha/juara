@@ -1,9 +1,3 @@
-<style>
-    a, button, input, .dropdown-menu{
-        border-radius: 0 !important;
-    }
-</style>
-
 <nav class="bg-dark" id="navbar">
     <div class="container d-flex justify-content-between align-items-center py-3 shadow-lg">
         <div class="d-flex align-items-center d-md-none">
@@ -18,11 +12,11 @@
             <img src="{{ asset('img/juara-font.png') }}" alt="" class="d-none d-md-flex" style="width: 100px;">
         </a>
         <div class="d-none d-md-flex align-items-center gap-3">
-            <button class="btn btn-dark rounded-circle border d-flex justify-content-center align-items-center" style="height: 37px; width: 37px;">
+            <button class="btn btn-dark border d-flex justify-content-center align-items-center" style="height: 37px; width: 37px; border-radius: 50% !important">
                 <i class="bi bi-bell"></i>
             </button>
             <div class="dropdown" data-bs-theme="dark">
-                <button class="btn btn-dark dropdown-toggle d-flex align-items-center gap-2 border" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-dark dropdown-toggle d-flex align-items-center gap-2 border border-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <div class="border rounded-circle" style="height: 25px; width: 25px;">
                         <i class="bi bi-person-fill"></i>
                     </div>

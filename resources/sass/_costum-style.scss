@@ -37,14 +37,14 @@ button, .btn {
 }
 
 .btn-juara {
-    background-color: #ef0046;
-    color: --bs-light;
+    background-color: var(--juara) !important;
+    color: var(--bs-light);
     transition: .3s;
     font-weight: 700;
 }
 
 .btn-juara:hover {
-    background-color: --juara-darker;
+    background-color: var(--juara-darker);
 }
 
 .btn-juara-invert {
